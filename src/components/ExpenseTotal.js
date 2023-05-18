@@ -1,10 +1,16 @@
-// create the Spent so Far component, which shows how much the user has spent so far
-import React from 'react';
+import React, { useContext } from 'react';
+import { AppContext } from '../context/AppContext';
 
 const ExpenseTotal = () => {
+	const { expenses } = useContext(AppContext);
+
+	const totalExpenses = expenses.reduce((total, item) => {
+		return (total += item.cost);
+	}, 0);
+
 	return (
 		<div className='alert alert-primary'>
-			<span>Spent so far: £1000</span>
+			<span>Spent so far: £{totalExpenses}</span>
 		</div>
 	);
 };
