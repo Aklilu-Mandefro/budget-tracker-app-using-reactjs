@@ -1,4 +1,13 @@
 # This Project is a Budget Trakcer Application Using React.js
+
+### The user can:
+- Add expenses which have a name and a cost
+- Remove expenses
+- View how much of their budget is remaining
+- View how much they've spent so far
+- (Challenge) Edit budget
+- (Challenge) Search expenses
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
