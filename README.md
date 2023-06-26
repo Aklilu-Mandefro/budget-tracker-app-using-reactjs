@@ -77,11 +77,16 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 ### `npm run build` fails to minify
 
+
+### Preview of the application
+
+<img src="https://i.imgur.com/2FiygYR.png" />
+
 ## Help
 
 Please [raise an issue](https://github.com/Aklilu-Mandefro/budget-tracker-app-using-reactjs/issues) if you find a problem with the example application.
 
 ## Contribution 
-You can contribute to this project by working on one or more of the issues mentioned [here](https://github.com/Aklilu-Mandefro/budget-tracker-app-using-reactjs/issues/1) or by adding more advanced features to the project.
+You can contribute to this project by working on one or more of the issues mentioned [here](https://github.com/Aklilu-Mandefro/budget-tracker-app-using-reactjs/issues/) or by adding more advanced features to the project.
 
 
